@@ -2,11 +2,11 @@
 
 public class Shape
 {
-  public Shape(double shapeHeight, double shapeWidth)
+  public Shape(double height, double width)
   {
-    Height = shapeHeight;
-    Width = shapeWidth;
-    Area = shapeHeight * shapeWidth;
+    Height = height;
+    Width = width;
+    Area = height * width;
   }
 
   public double Height { get; set; }

@@ -2,8 +2,5 @@ namespace Geometry;
 
 public class Rectangle : Shape
 {
-  public double GetArea()
-  {
-    return Height * Width;
-  }
+  public Rectangle(double height, double width) : base(height, width) { }
 }
